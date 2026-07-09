@@ -11,8 +11,7 @@ import sys
 if __name__ == '__main__':
     n = int(input().strip())
 
-while n >= 0:
-
+while 1 <= n <= 100:
     if n % 2 != 0:
         print("Weird")
     elif 2 <=n<=5:
