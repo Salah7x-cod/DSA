@@ -1,19 +1,8 @@
 def is_leap(year):
-    leap = False
-    # Write your logic here 
-    if year % 4 == 
-        leap = True
-        if year % 100 == 0:
-          leap = False
-        else:
-          leap = True
-          if year % 400 == 0:
-              leap = True
-          else:
-              leap = False 
-    else:
-        leap = False
-    return leap
 
+    # Write your logic here 
+    if year < 1900 or year > 10**5:
+        return "out of range"
+    return (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
 year = int(input())
 print(is_leap(year))
