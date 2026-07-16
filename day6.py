@@ -2,11 +2,13 @@ if __name__ == '__main__':
     N = int(input())
 #START
 #Initialize an empty list: my_list = []
-
+my_list = []
 #Read integer n  (number of commands)
 
 #FOR each of the n lines:
+for _ in range(N): 
     #Read the command line as a string
+    
     #Split the string into parts (words)
 
     #IF first word == "insert":
