@@ -19,7 +19,7 @@ if __name__ == '__main__':
             e = int(command_line[2])
             #insert value at position in my_list
             my_list.insert(i, e)
-        
+        #ELSE IF first word == "print":
         elif command == "print":
             #print my_list
             print(my_list)
