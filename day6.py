@@ -5,7 +5,7 @@ if __name__ == '__main__':
     N = int(input())
     my_list = []
 
-    #FOR each of the n lines:
+    #FOR each of 
     for _ in range(N): 
         #Read the command line as a string
         command_line = input().split()
